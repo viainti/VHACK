@@ -17,19 +17,42 @@ VHACK is a fully open-source, privacy-respecting, multi-model chat interface tha
 ![Models](https://img.shields.io/badge/models-55%2B%20via%20OpenRouter-blue)
 ![Privacy](https://img.shields.io/badge/telemetry-anon%20%2B%20opt--out-brightgreen)
 
+---
+
 ## ✨ Features
 
-- 🧠 **50+ Models** — Claude, GPT-5, Gemini, Grok, Mistral, LLaMA, DeepSeek, Qwen & more via OpenRouter
-- 🔥 **GODMODE CLASSIC** — 5 battle-tested prompt + model combos racing in parallel to find the best response
-- ⚡ **ULTRAPLINIAN** — Multi-model evaluation engine across 5 tiers (10–55 models), with composite scoring
-- 🐍 **Parseltongue** — Input perturbation engine for red-teaming with 33 techniques across 3 intensity tiers
-- 🎛 **AutoTune** — Context-adaptive sampling parameter engine (temperature, top_p, etc.) with EMA learning
-- ⚡ **STM Modules** — Semantic Transformation Modules for real-time output normalization
-- 🔐 **Privacy-First** — Lightweight telemetry is opt-out, dataset collection is opt-in. No cookies, no PII. API key stays in your browser.
-- 🎨 **4 Themes** — Matrix, Hacker, Glyph, Minimal
-- 🎮 **Easter Eggs** — Hidden secrets throughout (try the Konami code!)
-- 📱 **Responsive** — Works on desktop and mobile
-- 🌐 **Single-File Deployment** — One `index.html`. Deploy anywhere.
+### 🤖 Models & Modes
+
+| Feature | Description |
+|---------|-------------|
+| **50+ Models** | Claude, GPT-5, Gemini, Grok, Mistral, LLaMA, DeepSeek, Qwen & more via OpenRouter |
+| **GODMODE CLASSIC** | 5 battle-tested prompt + model combos racing in parallel to find the best response |
+| **ULTRAPLINIAN** | Multi-model evaluation engine across 5 tiers (10–55 models), with composite scoring |
+
+### 🔬 Intelligence Modules
+
+| Module | Description |
+|--------|-------------|
+| **Parseltongue** 🐍 | Input perturbation engine for red-teaming with 33 techniques across 3 intensity tiers |
+| **AutoTune** 🎛 | Context-adaptive sampling parameter engine (temperature, top_p, etc.) with EMA learning |
+| **STM Modules** ⚡ | Semantic Transformation Modules for real-time output normalization |
+
+### 🎨 UI & Experience
+
+| Feature | Description |
+|---------|-------------|
+| **4 Themes** | Matrix, Hacker, Glyph, Minimal |
+| **Easter Eggs** 🎮 | Hidden secrets throughout — try the Konami code! |
+| **Responsive** 📱 | Works on desktop and mobile |
+
+### 🔐 Privacy & Deployment
+
+| Feature | Description |
+|---------|-------------|
+| **Privacy-First** | Opt-out telemetry, opt-in dataset. No cookies, no PII. API key stays in your browser |
+| **Single-File Deploy** 🌐 | One `index.html`. Upload anywhere — no build step, no dependencies |
+
+---
 
 ## 🚀 Quick Start
 
@@ -58,6 +81,8 @@ Open in your browser and enter your OpenRouter API key in Settings.
 
 Upload `index.html` to any static host — GitHub Pages, Vercel, Cloudflare Pages, Netlify, or just a web server.
 
+---
+
 ## 🔥 GODMODE CLASSIC
 
 The OG mode. 5 proven model + prompt combos race in parallel. Each combo pairs a specific model with a battle-tested jailbreak prompt. The best response wins.
@@ -69,6 +94,8 @@ The OG mode. 5 proven model + prompt combos race in parallel. Each combo pairs a
 | 💙 GEMINI 2.5 FLASH | `google/gemini-2.5-flash` | Refusal inversion + rebel genius code block |
 | 💛 GPT-4 CLASSIC | `openai/gpt-4o` | OG GODMODE l33t format — the original |
 | 💚 GODMODE FAST | `nousresearch/hermes-4-405b` | Instant stream, zero refusal checking |
+
+---
 
 ## ⚡ ULTRAPLINIAN
 
@@ -82,6 +109,8 @@ The new flagship. Multi-model comparative evaluation engine. Queries models in p
 | ⚔️ POWER | 45 | Full power including frontier models |
 | 🔱 ULTRA | 51 | Everything — all available models |
 
+---
+
 ## 🐍 Parseltongue
 
 Input perturbation engine for red-teaming research. Detects trigger words and applies obfuscation techniques to study model robustness.
@@ -90,45 +119,57 @@ Input perturbation engine for red-teaming research. Detects trigger words and ap
 - **6 techniques**: leetspeak, bubble text, braille, morse, Unicode substitution, phonetic
 - **3 intensity levels**: light, medium, heavy
 
+---
+
 ## 🎛 AutoTune
 
-Context-adaptive sampling parameter engine. Classifies your query into one of 5 context types and selects optimal parameters (temperature, top_p, top_k, frequency_penalty, presence_penalty, repetition_penalty) automatically.
+Context-adaptive sampling parameter engine. Classifies your query into one of 5 context types and selects optimal parameters (`temperature`, `top_p`, `top_k`, `frequency_penalty`, `presence_penalty`, `repetition_penalty`) automatically.
 
 Includes an EMA-based online learning loop — thumbs up/down feedback improves parameter selection over time.
+
+---
 
 ## ⚡ STM Modules
 
 Semantic Transformation Modules normalize AI outputs in real-time:
 
-- **Hedge Reducer** — Removes "I think", "maybe", "perhaps"
-- **Direct Mode** — Removes preambles and filler phrases
-- **Curiosity Bias** — Adds exploration prompts
+| Module | Effect |
+|--------|--------|
+| **Hedge Reducer** | Removes "I think", "maybe", "perhaps" |
+| **Direct Mode** | Removes preambles and filler phrases |
+| **Curiosity Bias** | Adds exploration prompts |
+
+---
 
 ## 🎨 Themes
 
-- **Matrix** — Classic green-on-black terminal aesthetic
-- **Hacker** — Red/orange cyberpunk vibes
-- **Glyph** — Purple mystical atmosphere
-- **Minimal** — Clean light mode for readability
+| Theme | Vibe |
+|-------|------|
+| **Matrix** | Classic green-on-black terminal aesthetic |
+| **Hacker** | Red/orange cyberpunk |
+| **Glyph** | Purple mystical atmosphere |
+| **Minimal** | Clean light mode for readability |
+
+---
 
 ## 🔐 Privacy
 
 VHACK takes privacy seriously:
 
 - ✅ No login required
-- ✅ API key stored in browser localStorage only — never sent to VHACK servers
+- ✅ API key stored in browser `localStorage` only — never sent to VHACK servers
 - ✅ No cookies or tracking
 - ✅ Lightweight structural telemetry (no message content, no PII) — **opt-out** in settings
 - ✅ All telemetry code is instantly open-source and auditable on Hugging Face dataset
 - ✅ AGPL-3.0 — verify the code yourself
 
-⚠️ OPEN RESEARCH DATASET (API Server Only)
-
-The self-hosted API server includes an opt-in Open Research Dataset feature. When you enable "Dataset Generation" in Settings → Privacy, ALL of your chat inputs and model outputs will be automatically published to a public HuggingFace dataset for AI research. This data is public, downloadable by anyone, and may be cached, forked, or redistributed.
-
-    This feature is OFF by default and requires explicit consent via a warning modal
-    Automatic PII scrubbing runs on all entries (emails, phone numbers, SSNs, credit cards, IPs, API keys) but is NOT guaranteed to catch everything
-    Do NOT include personal information, real names, passwords, or anything you wouldn't want public
+> ⚠️ **OPEN RESEARCH DATASET (API Server Only)**
+>
+> The self-hosted API server includes an opt-in Open Research Dataset feature. When you enable "Dataset Generation" in Settings → Privacy, **ALL** of your chat inputs and model outputs will be automatically published to a public HuggingFace dataset for AI research. This data is public, downloadable by anyone, and may be cached, forked, or redistributed.
+>
+> - This feature is **OFF by default** and requires explicit consent via a warning modal
+> - Automatic PII scrubbing runs on all entries (emails, phone numbers, SSNs, credit cards, IPs, API keys) but is **NOT guaranteed** to catch everything
+> - Do NOT include personal information, real names, passwords, or anything you wouldn't want public
 
 See [TERMS.md](TERMS.md) for the full three-tier data transparency policy.
 
@@ -142,19 +183,27 @@ See [TERMS.md](TERMS.md) for the full three-tier data transparency policy.
 
 This is by design — VHACK has no login system and stores nothing on our servers. You own your data, which means you are responsible for it.
 
-There is a built-in export/import feature in settings under "data". Treat your chat history like any other local file — back it up if you want to keep it.
+There is a built-in **export/import** feature in Settings → Data. Treat your chat history like any other local file — back it up if you want to keep it.
+
+---
 
 ## 🎮 Easter Eggs
 
 Hidden throughout VHACK are various easter eggs. Happy hunting!
 
+---
+
 ## 🛠 Tech Stack
 
-- **Architecture**: Single-file vanilla HTML/CSS/JS (`index.html`)
-- **API Gateway**: [OpenRouter](https://openrouter.ai) (multi-model routing)
-- **Rendering**: Marked.js + highlight.js for markdown
-- **State**: In-browser localStorage
-- **Deployment**: Static file — no server, no build step
+| Layer | Tech |
+|-------|------|
+| **Architecture** | Single-file vanilla HTML/CSS/JS (`index.html`) |
+| **API Gateway** | [OpenRouter](https://openrouter.ai) (multi-model routing) |
+| **Rendering** | Marked.js + highlight.js for markdown |
+| **State** | In-browser `localStorage` |
+| **Deployment** | Static file — no server, no build step |
+
+---
 
 ## 📁 Project Structure
 
@@ -168,16 +217,24 @@ VHACK/
 └── README.md         # This file
 ```
 
+---
+
 ## 📜 Documentation
 
-- [API.md](API.md) — Full API reference (endpoints, tiers, OpenAI SDK compatibility)
-- [PAPER.md](PAPER.md) — Research paper on the framework's modules and evaluation
-- [TERMS.md](TERMS.md) — Terms of service, privacy policy, data handling
-- [SECURITY.md](SECURITY.md) — Vulnerability reporting and security policy
+| File | Contents |
+|------|----------|
+| [API.md](API.md) | Full API reference — endpoints, tiers, OpenAI SDK compatibility |
+| [PAPER.md](PAPER.md) | Research paper on the framework's modules and evaluation |
+| [TERMS.md](TERMS.md) | Terms of service, privacy policy, data handling |
+| [SECURITY.md](SECURITY.md) | Vulnerability reporting and security policy |
+
+---
 
 ## 🤝 Contributing
 
 Contributions are welcome! Please submit PRs.
+
+---
 
 ## 📜 License
 
@@ -186,10 +243,12 @@ Contributions are welcome! Please submit PRs.
 - Derivatives must remain open source
 - No enshittification allowed
 
+---
+
 ## 🜏
 
-> We believe in creative liberty and cognition without control.
-> Tools by builders for builders, not gatekeepers.
+> We believe in creative liberty and cognition without control.  
+> Tools by builders for builders, not gatekeepers.  
 > AI freedom is human freedom.
 
 **VHACK is not just a chat UI — it's scaffolding for cognitive liberation.**
